@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # 1. API 키 설정
-genai.configure(api_key="AIzaSyDz0vJtORhCFZ5uURQ7mDvPy3RJ8deP7YY")
+genai.configure(api_key="키값을 넣으세요")
 # 사용 가능한 모델 목록 출력
 for m in genai.list_models():
     if 'generateContent' in m.supported_generation_methods:
