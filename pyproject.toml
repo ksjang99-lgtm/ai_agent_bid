@@ -1,0 +1,11 @@
+[project]
+name = "email-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "olefile>=0.47",
+    "pyhwp>=0.1b15",
+    "streamlit>=1.53.0",
+]
